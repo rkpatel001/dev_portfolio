@@ -1,0 +1,72 @@
+
+
+
+@media only screen and (max-width: 1366px) {
+ .navbar a { font-size: 12px;}
+ .navbar {padding: 0;}
+ 
+
+ }
+@media only screen and (max-width: 991px) {
+ ul#slidenav {
+    position: absolute;
+    text-align: center;
+    padding: 0px 0px;
+    background: #111111;
+    left: 0;
+    right: 0;
+    top: 120px;z-index: 77;
+}
+label#icon span {
+    width: 29px;
+    height: 3px;
+    background: white;
+    display: block;
+    margin-bottom: 5px;
+}
+.header ul li {
+    display: block;
+    padding: 0;
+    font-weight: 500;
+    color: #000;
+    padding: 15px 0;
+    border-bottom: 1px solid #939393;
+}
+.text-uppercase.poppins-font{font-size: 41px;}
+.middle-section ul li {display: block !important;padding-left: 10px;}
+.banner-text {margin-left: 20px;}
+.title-bg{font-size: 90px;}
+
+}
+
+
+@media only screen and (max-width: 767px) {
+   form.form-horizontal{max-width: 100%;}
+.wrapper-team .product-grid .product-image a.image {height: 210px;}
+.custom_padding { padding-bottom: 70px;}
+.title-bg{font-size: 50px;}
+.text-start {text-align: center!important;}
+p.design-ser{max-width: 100%;}
+.text-uppercase.poppins-font { font-size: 35px;padding-left: 50px;}
+.about-section {padding: 50px 0;}
+.banner-text {margin-left: 0;}
+.title-section h2{font-size: 42px;}
+.wrapper-about-center {margin-bottom: 30px;}
+.our-services { padding: 20px 0 10px 0;}
+.about-img{margin-top: 40px;}
+.our-contact-us{padding-bottom: 70px;}
+div#Services .wrapper-about-center{margin-bottom: 90px;}
+.main_link{margin-top: 30px;}
+ul.Latest_Posts img{width: 100%;}
+}
+
+@media only screen and (max-width: 420px) {
+ul.about-list.list-unstyled.open-sans-font {column-count: 1;}
+.text-uppercase.poppins-font br{display: none;}
+.wrapper-team .product-grid .product-image a.image {height: 350px;}
+.form-horizontal .form-group:last-child {margin: 0px 0 0 0;}
+.text-uppercase.poppins-font{font-size: 28px;line-height: 36px;}
+.text-uppercase.poppins-font:before{top: 18px;}
+.text-uppercase.poppins-font br{display: none;}
+ul.Latest_Posts { column-count: 1;}
+}
